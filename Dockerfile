@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Copy the website content (HTML files) into the container
-COPY ./html /usr/share/nginx/html
+COPY index.html /usr/share/nginx/html/index.html
 
 # Expose port 80 to access the webpage
 EXPOSE 80
