@@ -1,3 +1,5 @@
+CMD ["nginx", "-g", "daemon off;"]
+
 # Use an official nginx image as the base image
 FROM nginx:latest
 
